@@ -1,0 +1,11 @@
+{
+  "name": "@ngc-corp/browser-extension-css-inject",
+  "version": "1.0.0",
+  "description": "Chrome extension - CSS inject",
+  "author": "NCG Corp. <engineering@ngc-corp.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ngc-corp/browser-extension-css-inject.git"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "CSS inject",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    },
+    "default_title": "CSS inject",
+    "default_popup": "popup.html"
+  },
+  "description": "Very simple chrome extension to inject CSS into websites",
+  "author": "NCG Corp. <engineering@ngc-corp.com>",
+  "homepage_url": "https://github.com/ngc-corp/browser-extension-css-inject",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["inject.js"]
+    }
+  ],
+  "offline_enabled": true
+}
